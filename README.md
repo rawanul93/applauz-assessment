@@ -26,5 +26,5 @@ For styling I used Bootstrap CDN, React bootstrap and some inline styles <sub>I 
 
 Axios was used to make api calls from the frontend to the backend which then handles it by checking the users model in the auth service and sends back the correct user object.
 
-The app redirects logged in users to the LoginSucessPage where it is just a simple banner displaying the user's name.
+The app redirects logged in users to the LoginSucessPage where it is just a simple banner displaying the user's name that we destructure from user object returned by backend.
 
